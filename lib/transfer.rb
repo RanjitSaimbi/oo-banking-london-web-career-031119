@@ -32,7 +32,7 @@ class Transfer
     end 
   end 
   
-    def execute_transaction
+    def reverse_transaction
     if @sender.valid? && @sender.balance > amount
       if @status == "pending"
         @sender.balance -= amount
