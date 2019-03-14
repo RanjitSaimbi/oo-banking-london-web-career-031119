@@ -21,6 +21,8 @@ class Transfer
   
   def execute_transaction
     
+    binding.pry
+    "stuff"
   end 
   
 end
