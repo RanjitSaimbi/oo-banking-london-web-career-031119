@@ -12,11 +12,7 @@ class Transfer
   end 
   
   def valid?
-    if self.receiver.class == BankAccount && self.sender.class == BankAccount
-      true 
-    else
-      false 
-    end 
+    
   end 
   
 end
